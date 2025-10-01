@@ -3,7 +3,7 @@
 import SyllabusPage from "./SyllabusPageClient"; // your client component
 import { Metadata } from "next"; // Import Metadata type explicitly
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Latest Exam Syllabus 2025 | Govt & Competitive Exams Portal",
   description:
     "Download detailed syllabus for government and competitive exams. Stay updated with official exam syllabus for UPSC, SSC, JEE, NEET, and more.",
