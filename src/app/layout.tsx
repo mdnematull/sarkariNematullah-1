@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: "https://sarkariresultpoint.com/seo-banner.png",
         width: 1200,
         height: 630,
-        alt: "Sarkari Result Point - Latest Government Jobs & Exam Notifications",
+        alt: "Government Results Hub – Latest Govt Jobs, Results, Admit Cards 2025",
       },
     ],
     type: "website",
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sarkari Result Point - Latest Govt Jobs 2025",
+    title: "Government Results Hub –Latest Govt Jobs,Results,Admit Cards 2025",
     description:
-      "Stay updated with Sarkari Result Point for latest government job openings, exam results, and admit cards.",
+      "Stay updated with Government Results Hub for latest government job openings, exam results, and admit cards.",
     images: ["https://sarkariresultpoint.com/seo-banner.png"],
   },
   alternates: {
@@ -81,12 +81,7 @@ export default function RootLayout({
       <Header/>
        {children}
     <Footer/>
-    
-      
-     
-      
-     
-        
+
       </body>
     </html>
   );
