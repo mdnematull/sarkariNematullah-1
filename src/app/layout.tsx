@@ -4,10 +4,6 @@ import "./globals.css";
 import Header from "@/Components/Header";
 import Footer from "@/Components/Footer";
 
-
-
-
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -64,8 +60,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://govermentresulthub.netlify.app",
   },
-};
 
+  // ✅ Google verification tag
+  verification: {
+    google: "P5g1BNy5qSXfe8Iz5DI-3zaq2g5brTSrWy6r8OCjxsQ",
+  },
+};
 
 export default function RootLayout({
   children,
@@ -77,17 +77,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-      
-      <Header/>
-       {children}
-    <Footer/>
-    
-      
-     
-      
-     
-        
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   );
 }
+
