@@ -61,9 +61,12 @@ export const metadata: Metadata = {
     canonical: "https://govermentresulthub.netlify.app",
   },
 
-  // ✅ Google verification tag
+  // ✅ Multiple Google verification tags
   verification: {
-    google: "P5g1BNy5qSXfe8Iz5DI-3zaq2g5brTSrWy6r8OCjxsQ",
+    google: [
+    
+      "JeDony-zNNsyddOyTLf49psFp_6cX-XPVuj4JsQIBIE",
+    ],
   },
 };
 
@@ -84,4 +87,3 @@ export default function RootLayout({
     </html>
   );
 }
-
